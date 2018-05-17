@@ -742,5 +742,5 @@
         window.VueifiedDateRangePicker = VueifiedDateRangePicker;
     }
 
-    export default VueDateRangePicker;
+    export default VueifiedDateRangePicker;
 </script>
