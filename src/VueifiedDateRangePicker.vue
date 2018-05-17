@@ -277,7 +277,7 @@
 <script>
     import dayjs from 'dayjs';
 
-    let VueifiedDateRangePicker = {
+    export default {
         name: 'vueified-date-range-picker',
         props: {
             format: {
@@ -736,11 +736,4 @@
             Vue.component('vueified-date-range-picker', this);
         }
     };
-
-    /** Expose component to window */
-    if(window){
-        window.VueifiedDateRangePicker = VueifiedDateRangePicker;
-    }
-
-    export default VueifiedDateRangePicker;
 </script>
