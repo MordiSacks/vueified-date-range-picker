@@ -1,0 +1,36 @@
+{
+  "name":            "vueified-date-range-picker",
+  "version":         "0.0.1",
+  "description":     "A vue date range picker",
+  "main":            "src/VueifiedDateRangePicker.vue",
+  "keywords":        [
+    "vue",
+    "vuejs",
+    "vue-date-range-picker",
+    "date picker",
+    "date range",
+    "daterange",
+    "date range picker"
+  ],
+  "author":          "Mordi Sacks",
+  "contributors":    [
+    {
+      "name": "Racheli Elias-Sacks"
+    }
+  ],
+  "license":         "MIT",
+  "scripts":         {
+    "dev":        "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch":      "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot":        "cross-env NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "devDependencies": {
+    "cross-env":   "^5.1.5",
+    "laravel-mix": "^2.1.11",
+    "vue":         "^2.5"
+  },
+  "dependencies":    {
+    "dayjs": "^1.6.0"
+  }
+}

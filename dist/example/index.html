@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vueified Date Range Picker</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border: none;
+        }
+
+        .container {
+            max-width: 95%;
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        body {
+            font-family: 'Segoe UI', 'Open Sans', Arial, sans-serif;
+            background-color: whitesmoke;
+        }
+
+        h1 {
+            padding: 1em;
+            text-align: center;
+            text-decoration: underline;
+            color: #70e0b8;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <h1>Vueified Date Range Picker</h1>
+
+    <div class="container">
+        <vueified-date-range-picker @selected="drs"></vueified-date-range-picker>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
