@@ -4,6 +4,10 @@ Vueified Date Range Picker
 ### Screenshot
 ![Screenshot](https://i.imgur.com/X5m1vM3.png)
 
+## Installation
+Run  
+`yarn add vueified-date-range-picker` or `npm install vueified-date-range-picker` 
+
 ## Usage
 ```js
 import VueifiedDateRangePicker from 'VueifiedDateRangePicker';

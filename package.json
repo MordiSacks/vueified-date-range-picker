@@ -1,6 +1,6 @@
 {
   "name":            "vueified-date-range-picker",
-  "version":         "0.1.0",
+  "version":         "0.1.2",
   "description":     "A vue date range picker",
   "main":            "src/VueifiedDateRangePicker.vue",
   "keywords":        [
@@ -18,6 +18,13 @@
       "name": "Racheli Elias-Sacks"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MordiSacks/vueified-date-range-picker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MordiSacks/vueified-date-range-picker/issues"
+  },
   "license":         "MIT",
   "scripts":         {
     "dev":        "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
