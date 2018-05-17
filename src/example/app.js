@@ -2,7 +2,7 @@ import Vue from 'vue';
 import VueifiedDateRangePicker from '../VueifiedDateRangePicker';
 import dayjs from 'dayjs';
 
-Vue.use(VueifiedDateRangePicker);
+Vue.use(VueifiedDateRangePicker) ;
 
 let app = new Vue({
     el: '#app',
